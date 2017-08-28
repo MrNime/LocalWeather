@@ -1,0 +1,49 @@
+/** {
+    border: 1px solid black;
+}*/
+
+.infoBox {
+	font-family: 'Raleway', Helvetica, Arial, sans-serif;
+	font-size: 20px;
+	line-height: 70px;
+}
+
+.titleBar {
+	font-family: 'Goudy Bookletter 1911', Georgia, Times, serif;
+	font-size: 50px;
+	line-height: 25px;
+    padding: 10px;
+}
+
+.shadow-depth-3{
+  -webkit-box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  -moz-box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  }
+
+#main-row {
+    min-height: 100vh;
+}
+
+body {
+    background-color: #435d8c;
+    color: #fff;
+}
+
+.container {
+    background-color: #6495ed;
+}
+
+.titleBar {
+    background-color: #435d8c;
+}
+
+#tempUnit {
+    color: #fff;
+    border-color: #435d8c;
+    border-width: 2px;
+}
+
+#tempUnit:hover {
+    background-color: #435d8c;
+}
